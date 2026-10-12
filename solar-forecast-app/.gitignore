@@ -1,0 +1,121 @@
+# ============================================
+# Solar Console - Git Ignore
+# ============================================
+
+# --------------------------------------------
+# Node / React
+# --------------------------------------------
+node_modules/
+.npm/
+.pnpm-store/
+
+# React production build
+build/
+dist/
+
+# Testing / coverage
+coverage/
+
+# --------------------------------------------
+# Environment & Secrets
+# --------------------------------------------
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# --------------------------------------------
+# Python
+# --------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python test / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --------------------------------------------
+# Machine Learning / Generated Files
+# --------------------------------------------
+# Uncomment these ONLY if these files are generated
+# and should not be stored in Git:
+#
+# *.pkl
+# *.joblib
+# models/
+# data/generated/
+
+# --------------------------------------------
+# Application Data / Local Runtime Files
+# --------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# --------------------------------------------
+# IDE / Editor
+# --------------------------------------------
+.vscode/
+.idea/
+
+# --------------------------------------------
+# OS Generated Files
+# --------------------------------------------
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# --------------------------------------------
+# Node / npm Logs
+# --------------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------------------------------
+# Temporary Files
+# --------------------------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# --------------------------------------------
+# Build / Cache
+# --------------------------------------------
+.cache/
+.parcel-cache/
+.eslintcache
+
+# --------------------------------------------
+# Backup Files
+# --------------------------------------------
+*.bak
+*.backup
+# Runtime database
+backend/*.db
+*.sqlite
+*.sqlite3
+# Generated forecast data
+backend/*.csv

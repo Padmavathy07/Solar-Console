@@ -1,0 +1,56 @@
+/* Industrial Solar Console Custom Styles */
+
+.nav-item-active {
+  background-color: #F5B83D !important;
+  color: #0B0C0E !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 15px rgba(245, 184, 61, 0.25) !important;
+}
+
+.nav-item-inactive {
+  color: #9AA1B0;
+}
+
+.nav-item-inactive:hover {
+  background-color: #161922;
+  color: #FFFFFF;
+}
+
+/* Light Theme Navigation Overrides */
+html.theme-light .nav-item-inactive:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #FFFFFF !important;
+}
+
+html.theme-light .nav-item-active {
+  background-color: #FFFFFF !important;
+  color: #3B0764 !important;
+  font-weight: 800 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.gold-glow-btn {
+  background: linear-gradient(135deg, #F5B83D 0%, #E0A632 100%);
+  color: #0B0C0E;
+  font-weight: 700;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(245, 184, 61, 0.2);
+}
+
+.gold-glow-btn:hover {
+  background: linear-gradient(135deg, #FFC552 0%, #F5B83D 100%);
+  box-shadow: 0 6px 20px rgba(245, 184, 61, 0.35);
+  transform: translateY(-1px);
+}
+
+.gold-outline-btn {
+  border: 1px solid #F5B83D;
+  color: #F5B83D;
+  background: rgba(245, 184, 61, 0.05);
+  transition: all 0.2s ease;
+}
+
+.gold-outline-btn:hover {
+  background: rgba(245, 184, 61, 0.15);
+  box-shadow: 0 0 12px rgba(245, 184, 61, 0.2);
+}
